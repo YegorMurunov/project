@@ -8,7 +8,7 @@ body {
 	padding: 15px;
 }
 .analyze-container {
-	max-width: 900px;
+	max-width: 740px;
 	margin: 0 auto;
 }
 .analyze__content {
@@ -47,7 +47,7 @@ body {
 	outline: none;
 	border-radius: 10px;
 	resize: none;
-	transition: border-color 0.3s ease;
+	transition: border-color 0.0s ease;
 }
 .analyze__input::placeholder {
 	color: #818181;
@@ -67,9 +67,12 @@ body {
 	right: 20px;
 	transform: translate(0, -50%);
 }
-.btn-micro img {
+.btn-micro svg {
 	width: 100%;
 	height: auto;
+}
+.btn-micro svg:hover path {
+	fill: #89a3c8;
 }
 
 .analyze__btn {
@@ -84,11 +87,12 @@ body {
 	position: relative;
 	margin: 0 auto;
 	cursor: pointer;
-	transition: box-shadow 0.3s ease;
+	transition: background 0.1s ease;
 }
 
 .analyze__btn:hover {
-	box-shadow: 0 0 10px #5A80B1;
+	/* box-shadow: 0 0 10px #5A80B1; */
+	background: #89a3c8;
 }
 
 
